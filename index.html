@@ -15,26 +15,30 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Hello, world!</title>
 
+    <title>Humanet</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <!--fontawesome-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-
-    <link rel="stylesheet" href="font/font/flaticon.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.2.3/dist/ionicons/ionicons.js"
+    ></script>
   </head>
 
   <body>
@@ -45,44 +49,77 @@
       <nav class="fixed-top align-top" id="sidebar-wrapper" role="navigation">
         <div class="simplebar-content" style="padding: 0px">
           <a class="sidebar-brand" href="index.html">
-            <span class="align-middle">Vishweb Design</span>
+            <img src="assets/img/logo.png" class="img-fluid" alt="" />
+            <span class="align-middle">Humanet personal</span>
           </a>
 
           <ul class="navbar-nav align-self-stretch">
-            <li class="sidebar-header">Pages</li>
             <li class="">
               <a
-                class="nav-link text-left active"
+                class="nav-link nav-op text-left active"
                 role="button"
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                <i class="flaticon-bar-chart-1"></i> Dashboard
+                <ion-icon name="home-outline"></ion-icon>
+                <p>Inicio</p>
               </a>
             </li>
 
+            <li class="sidebar-header">tools and component</li>
+
             <li class="has-sub">
               <a
-                class="nav-link collapsed text-left"
-                href="#collapseExample2"
+                class="nav-link nav-op collapsed text-left"
+                href="#collapse"
                 role="button"
                 data-toggle="collapse"
               >
-                <i class="flaticon-user"></i> Profile
+                <ion-icon name="home-outline"></ion-icon> <p>Información personal</p>
               </a>
-              <div class="collapse menu mega-dropdown" id="collapseExample2">
+              <div class="collapse menu mega-dropdown" id="collapse">
                 <div class="dropmenu" aria-labelledby="navbarDropdown">
                   <div class="container-fluid">
                     <div class="row">
                       <div class="col-lg-12 px-2">
                         <div class="submenu-box">
                           <ul class="list-unstyled m-0">
-                            <li><a href="">PHP Frameworks</a></li>
-                            <li><a href="">Laravel</a></li>
-                            <li><a href=""> Codeigniter</a></li>
-                            <li><a href="">Node.js</a></li>
-                            <li><a href="">AngularJS</a></li>
-                            <li><a href="">ReactJS</a></li>
+                            <li>
+                              <a href="" class="sub-m" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
                             <!-- <li><a href="">Asp.net</a></li> -->
                           </ul>
                         </div>
@@ -92,51 +129,326 @@
                 </div>
               </div>
             </li>
-            <li class="">
-              <a class="nav-link text-left" role="button">
-                <i class="flaticon-bar-chart-1"></i> setting
-              </a>
-            </li>
-
-            <li class="">
-              <a class="nav-link text-left" role="button">
-                <i class="flaticon-bar-chart-1"></i> invoice
-              </a>
-            </li>
-            <li class="">
-              <a class="nav-link text-left" role="button">
-                <i class="flaticon-bar-chart-1"></i> Bank
-              </a>
-            </li>
-            <li class="sidebar-header">tools and component</li>
-
-            <li class="">
-              <a class="nav-link text-left" role="button">
-                <i class="flaticon-bar-chart-1"></i> ui element
-              </a>
-            </li>
-
-            <li class="">
-              <a class="nav-link text-left" role="button">
-                <i class="flaticon-bar-chart-1"></i> form
-              </a>
-            </li>
-            <li class="">
-              <a class="nav-link text-left" role="button">
-                <i class="flaticon-bar-chart-1"></i> table
-              </a>
-            </li>
 
             <li class="sidebar-header">tools and component</li>
-            <li class="">
-              <a class="nav-link text-left" role="button">
-                <i class="flaticon-bar-chart-1"></i> chart
+
+            <li class="has-sub">
+              <a
+                class="nav-link nav-op collapsed text-left"
+                href="#collapse2"
+                role="button"
+                data-toggle="collapse"
+              >
+                <ion-icon name="home-outline"></ion-icon> <p>Información personal</p>
               </a>
+              <div class="collapse menu mega-dropdown" id="collapse2">
+                <div class="dropmenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-12 px-2">
+                        <div class="submenu-box">
+                          <ul class="list-unstyled m-0">
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <!-- <li><a href="">Asp.net</a></li> -->
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li class="">
-              <a class="nav-link text-left" role="button">
-                <i class="flaticon-map"></i> map
+
+            <li class="sidebar-header">tools and component</li>
+
+            <li class="has-sub">
+              <a
+                class="nav-link nav-op collapsed text-left"
+                href="#collapse3"
+                role="button"
+                data-toggle="collapse"
+              >
+                <ion-icon name="home-outline"></ion-icon> <p>Información personal</p>
               </a>
+              <div class="collapse menu mega-dropdown" id="collapse3">
+                <div class="dropmenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-12 px-2">
+                        <div class="submenu-box">
+                          <ul class="list-unstyled m-0">
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <!-- <li><a href="">Asp.net</a></li> -->
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="sidebar-header">tools and component</li>
+
+            <li class="has-sub">
+              <a
+                class="nav-link nav-op collapsed text-left"
+                href="#collapse4"
+                role="button"
+                data-toggle="collapse"
+              >
+                <ion-icon name="home-outline"></ion-icon> <p>Información personal</p>
+              </a>
+              <div class="collapse menu mega-dropdown" id="collapse4">
+                <div class="dropmenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-12 px-2">
+                        <div class="submenu-box">
+                          <ul class="list-unstyled m-0">
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <!-- <li><a href="">Asp.net</a></li> -->
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="sidebar-header">tools and component</li>
+
+            <li class="has-sub">
+              <a
+                class="nav-link nav-op collapsed text-left"
+                href="#collapse4"
+                role="button"
+                data-toggle="collapse"
+              >
+                <ion-icon name="home-outline"></ion-icon> <p>Información personal</p>
+              </a>
+              <div class="collapse menu mega-dropdown" id="collapse4">
+                <div class="dropmenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-12 px-2">
+                        <div class="submenu-box">
+                          <ul class="list-unstyled m-0">
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <!-- <li><a href="">Asp.net</a></li> -->
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="sidebar-header">tools and component</li>
+
+            <li class="has-sub">
+              <a
+                class="nav-link collapsed text-left"
+                href="#collapse5"
+                role="button"
+                data-toggle="collapse"
+              >
+                <img src="assets/img/5.jpg" alt="" class="img-personal" />
+                Pamela Alonso Gonzales
+              </a>
+              <div class="collapse menu mega-dropdown" id="collapse5">
+                <div class="dropmenu" aria-labelledby="navbarDropdown">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-12 px-2">
+                        <div class="submenu-box">
+                          <ul class="list-unstyled m-0">
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <li>
+                              <a href="" class="sub-m"
+                                ><ion-icon name="home-outline"></ion-icon>
+                                Opción</a
+                              >
+                            </li>
+                            <!-- <li><a href="">Asp.net</a></li> -->
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -295,7 +607,7 @@
                     >
                     <img
                       class="img-profile rounded-circle"
-                      src="img/logo3.png"
+                      src="assets/img/5.png"
                     />
                   </a>
                 </li>
@@ -599,6 +911,18 @@
         $(this).toggleClass("open");
         $("#page-content-wrapper ,#sidebar-wrapper").toggleClass("toggled");
       });
+
+      $(document).on("click",".navbar-nav li a",function(){
+  if (!$(this).hasClass("collapsed")) {
+    $(this).addClass("active");
+  }
+else{
+    $(this).removeClass("active");
+}
+
+});
+
+
     </script>
   </body>
 </html>
